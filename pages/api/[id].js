@@ -46,7 +46,7 @@ const testApi = async (req, res) => {
       metadata = {
         "name": "Wild Lion Society" + " " + tokenName,
         "tokenId": parseInt(query),
-        "image": `https://gateway.pinata.cloud/ipfs/${trait["imageIPFS"]}`,
+        "image": `https://gateway.pinata.cloud/ipfs/${trait["image"]}`,
         "attributes": [
           {
             "trait_type": "Background",
