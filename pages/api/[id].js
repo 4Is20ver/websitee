@@ -47,7 +47,7 @@ const testApi = async (req, res) => {
         "name": "Wild Lion Society" + " " + tokenName,
         "description" : "NFT collection",
         "tokenId": parseInt(query),
-        "image": `https://gateway.pinata.cloud/ipfs/${trait["image"]}`,
+        "image": `${trait["image"]}`,
         "attributes": [
           {
             "trait_type": "Background",
