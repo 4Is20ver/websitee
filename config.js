@@ -1,5 +1,7 @@
 export const INFURA_ADDRESS = "https://rinkeby.infura.io/v3/2d21cbf8abe544f1b059b6eb202d3d88"
 
+// https://mainnet.infura.io/v3/2d21cbf8abe544f1b059b6eb202d3d88
+
 
 export const ADDRESS = "0x3cbeC1b4d33eD5D3c7F58a51691C18e08AdF54cf"
 

@@ -45,6 +45,7 @@ const testApi = async (req, res) => {
       // GENERAL BANANA METADATA
       metadata = {
         "name": "Wild Lion Society" + " " + tokenName,
+        "description" : "NFT collection",
         "tokenId": parseInt(query),
         "image": `https://gateway.pinata.cloud/ipfs/${trait["image"]}`,
         "attributes": [
